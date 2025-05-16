@@ -46,7 +46,7 @@ Installation
 
     Clone the repo:
 
-git clone https://github.com/yourusername/TermCrypt.git
+git clone https://github.com/MazenABMA/TermCrypt.git
 cd TermCrypt
 
 Make scripts executable:
