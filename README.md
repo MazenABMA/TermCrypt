@@ -25,7 +25,7 @@ Features
 
     Simple, lightweight GUI built with Tkinter
 
-
+   Support multi-client group chat with secure sessions
 
 
 
@@ -55,9 +55,9 @@ chmod +x chat_client.sh file_send.sh file_recv.sh
 
 Run the GUI:
 
-    python3 gui.py
+    python3 Client.py
 
-and run the chat_server.sh ! 
+and run the chat_server.sh !  or if want to run multi clients then run the multi.py
 Usage
 
     Enter the server IP and port to connect
@@ -74,7 +74,7 @@ Architecture
 
     Chat: Uses subprocess to run encrypted chat client bash script
 
-    File Sharing: Secure file send/receive via password-protected scripts
+    File Sharing: Secure file send/receive via password-protected scripts , to run run the SendFile.py
 
     Encryption: (To be implemented) AES or other symmetric encryption for message confidentiality
 
@@ -84,6 +84,4 @@ Roadmap
 
     Implement key exchange protocols for dynamic secret keys
 
-    Support multi-client group chat with secure sessions
-
-    Add logging and error handling improvements
+        Add logging and error handling improvements
